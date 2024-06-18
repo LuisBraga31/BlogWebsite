@@ -12,7 +12,7 @@ export default function Home() {
         <Header/>
         <Search/>
         {posts.length > 0 ?  <IntroPost post={posts[0]}/> : null}
-        <Blogs/>
+        {posts.length > 0 ?  <Blogs posts={posts}/> : null}
         <Footer/>
     </div>
   )
