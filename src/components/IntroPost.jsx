@@ -13,7 +13,7 @@ export default function IntroPost({post}) {
         <h4 className='line-clamp-6 text-gray-400 mt-5 text-justify'> {post.description} </h4>
 
         <div className='flex items-center mt-5'>
-          <img src="https://media.istockphoto.com/id/1130884625/pt/vetorial/user-member-vector-icon-for-ui-user-interface-or-profile-face-avatar-app-in-circle-design.jpg?s=612x612&w=0&k=20&c=TY231Axfe9YpJTZj10JgZqaeoBRI1_wo-J3IBfsi5Ss="
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxSR7eJyNyKvK90HclIFMQJTCNeeJNLMdviA&s"
               className='w-[50px] rounded-full'
           />
           <div className='ml-2'>
