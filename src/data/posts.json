@@ -4,55 +4,55 @@
         "title": "Introdução ao Front-end",
         "description": "Um guia básico para começar no desenvolvimento front-end. Este artigo aborda os conceitos fundamentais do desenvolvimento de interfaces de usuário, incluindo HTML, CSS e JavaScript. Exploramos as melhores práticas, ferramentas populares e como criar interfaces responsivas e acessíveis.",
         "tag": "Front-end",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     },
     {
         "id": 2,
         "title": "Dominando o Back-end",
         "description": "Dicas e truques para se tornar um desenvolvedor back-end eficiente. Neste post, discutimos a arquitetura de servidores, bancos de dados e a lógica de negócios. Também abordamos as linguagens de programação mais utilizadas e as melhores práticas para garantir um código seguro e escalável.",
         "tag": "Back-end",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     },
     {
         "id": 3,
         "title": "Testes Automatizados com Jest",
         "description": "Aprenda a utilizar o Jest para automatizar seus testes. Vamos explorar como configurar e escrever testes unitários e de integração com Jest. Este artigo também abrange as melhores práticas para manter seus testes organizados e como interpretar os resultados para melhorar a qualidade do código.",
         "tag": "Testing",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     },
     {
         "id": 4,
         "title": "Noções Básicas de Bancos de Dados",
         "description": "Conceitos fundamentais para trabalhar com bancos de dados. Este artigo explica os tipos de bancos de dados, incluindo relacionais e não relacionais, suas vantagens e desvantagens, e como escolher o banco de dados certo para o seu projeto. Além disso, discutimos as operações CRUD e a normalização de dados.",
         "tag": "Database",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     },
     {
         "id": 5,
         "title": "Frameworks Front-end Populares",
         "description": "Uma análise dos frameworks front-end mais utilizados atualmente. Discutimos as características, vantagens e desvantagens de frameworks como React, Angular e Vue.js. Este artigo ajuda a escolher o framework certo para seu projeto e como começar a trabalhar com ele.",
         "tag": "Front-end",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     },
     {
         "id": 6,
         "title": "Construindo APIs com Node.js",
         "description": "Passo a passo para criar APIs RESTful com Node.js. Este guia detalhado mostra como configurar um servidor Node.js, criar endpoints, conectar-se a um banco de dados e implementar autenticação. Também discutimos as melhores práticas para segurança e desempenho de APIs.",
         "tag": "Back-end",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     },
     {
         "id": 7,
         "title": "Testando Aplicações Web",
         "description": "Ferramentas e metodologias para testar aplicações web de forma eficaz. Exploramos diferentes tipos de testes, incluindo unitários, funcionais e de carga. Este artigo também cobre ferramentas populares como Selenium e Cypress, e como integrá-las no seu fluxo de trabalho de desenvolvimento.",
         "tag": "Testing",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     },
     {
         "id": 8,
         "title": "Design de Banco de Dados Relacional",
         "description": "Boas práticas para o design de bancos de dados relacionais. Discutimos os princípios de design de esquemas, normalização e desnormalização de dados. Além disso, abordamos como otimizar consultas SQL e garantir a integridade dos dados no seu banco de dados.",
         "tag": "Database",
-        "image_link": "https://example.com/image.jpg"
+        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
     }
 ]
