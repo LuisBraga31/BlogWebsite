@@ -13,9 +13,16 @@ Essas foram as seguintes tecnologias usadas para criação do projeto.
 * JavaScript
 * Tailwind CSS
 
+## Serviços Usados:
+
+* GitHub
+* Vercel
+
+## Links
+  - Deploy no Vercel: https://blog-website-seven-teal-67.vercel.app/
+
 ## Ideia do Projeto
 
 O projeto foi desenvolvido com base no vídeo do canal TubeGuruji.
 
 Link para o vídeo: <a href="https://www.youtube.com/watch?v=l_moN1w-vWY"> Blog Website using React Js, Tailwind Css, Vite </a>
-
