@@ -27,7 +27,7 @@ export default function BlogDetail() {
                 <h3 className='text-gray-500 text-[10px]'> 18 Junho de 2024 </h3>
               </div>
             </div>
-        <img src={posts[id-1].image_link} className='rounded-2xl mt-5 mb-5 w-full h-[500px]' />
+        <img src={posts[id-1].image_link} className='rounded-2xl mt-5 mb-5 w-full h-[600px] border-[1px]' />
         <h3 className='text-[24px] text-justify leading-16'> {posts[id-1].text} </h3>
     </div>
   )

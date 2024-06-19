@@ -9,7 +9,7 @@ export default function IntroPost({post}) {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 mt-10 px-10 md:px-15 lg:px-32 gap-8' onClick={() => navigate(`blog/${post.id}`)}>
       
-      <img src={post.image_link} className='rounded-2xl object-cover w-full h-full cursor-pointer'/>
+      <img src={post.image_link} className='rounded-2xl object-cover w-full h-full cursor-pointer border-[1px]'/>
 
       <div>
         <h4 className='text-blue-500'> {post.tag} </h4>

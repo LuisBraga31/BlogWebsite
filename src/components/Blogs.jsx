@@ -12,7 +12,7 @@ export default function Blogs({ posts, filter }) {
         .filter((itemTag) => filter === "All" ? true : filter === itemTag.tag ? true : false)
         .map((item) => (
           <div key={item.id} className='m-4 cursor-pointer' onClick={() => navigate(`blog/${item.id}`)}>
-            <img src={item.image_link} className='w-full rounded-2xl object-cover h-[200px]'/>
+            <img src={item.image_link} className='w-full rounded-2xl object-cover h-[200px] border-[1px]'/>
             <h3 className='text-blue-500 mt-3'> {item.tag} </h3>
             <h3 className='font-bold mt-3'> {item.title} </h3>
             <h3 className='line-clamp-3 text-justify text-gray-400 mt-3'> {item.description} </h3>
