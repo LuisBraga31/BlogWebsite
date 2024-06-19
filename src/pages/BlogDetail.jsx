@@ -1,11 +1,18 @@
 import { useParams } from 'react-router'
 import posts from '../data/posts.json'
+import { useEffect } from 'react';
 
 export default function BlogDetail() {
 
     const { id } = useParams();
-
-    console.log(posts[id-1])
+    
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            transitionDelay: 300,
+            behavior: "smooth"
+          });
+    }, []);
 
   return (
     <div className='px-6 md:px-20 mt-10 lg:px-56'>

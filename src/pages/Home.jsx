@@ -3,8 +3,18 @@ import IntroPost from '../components/IntroPost'
 import Blogs from '../components/Blogs'
 
 import posts from '../data/posts.json'
+import { useEffect } from 'react';
 
 export default function Home() {
+  
+  useEffect(() => {
+      window.scrollTo({
+          top: 0,
+          transitionDelay: 300,
+          behavior: "smooth"
+        });
+  }, []);
+
   return (
     <div>
         <Search/>
