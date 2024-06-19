@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import banner from '../assets/img/banner.jpg';
 import { IoSearchOutline } from 'react-icons/io5';
 
-export default function Search() {
+export default function Search({setFilter}) {
 
   const tags = [
     {
@@ -11,11 +12,11 @@ export default function Search() {
     },
     {
       id: 2,
-      name: 'Front-End'
+      name: 'Front-end'
     },
     {
       id: 3,
-      name: 'Back-End'
+      name: 'Back-end'
     },
     {
       id: 4,
@@ -23,7 +24,7 @@ export default function Search() {
     },
     {
       id: 5,
-      name: 'DataBase'
+      name: 'Database'
     }
   ]
 
@@ -39,7 +40,7 @@ export default function Search() {
 
       <div className='flex gap-10 justify-center mt-5 '>
         {tags.map((item, index)=> (
-          <ul key={item.id}onClick={()=> setActiveIndex(index)}  
+          <ul key={item.id}onClick={()=> {setActiveIndex(index); setFilter(item.name)}}  
               className={`${index==activeIndex ? 'bg-blue-500 text-white' : null} 
               p-1 pb-2 rounded-sm md:rounded-full border-[1px] cursor-pointer md:px-4 hover:scale-110 hover:border-[1px] hover:border-blue-500 transition-all duration-100 ease-in-out`}>
             <li> {item.name} </li>
