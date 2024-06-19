@@ -1,58 +1,67 @@
-[
-    {
-        "id": 1,
-        "title": "Introdução ao Front-end",
-        "description": "Um guia básico para começar no desenvolvimento front-end. Este artigo aborda os conceitos fundamentais do desenvolvimento de interfaces de usuário, incluindo HTML, CSS e JavaScript. Exploramos as melhores práticas, ferramentas populares e como criar interfaces responsivas e acessíveis.",
-        "tag": "Front-end",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    },
-    {
-        "id": 2,
-        "title": "Dominando o Back-end",
-        "description": "Dicas e truques para se tornar um desenvolvedor back-end eficiente. Neste post, discutimos a arquitetura de servidores, bancos de dados e a lógica de negócios. Também abordamos as linguagens de programação mais utilizadas e as melhores práticas para garantir um código seguro e escalável.",
-        "tag": "Back-end",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    },
-    {
-        "id": 3,
-        "title": "Testes Automatizados com Jest",
-        "description": "Aprenda a utilizar o Jest para automatizar seus testes. Vamos explorar como configurar e escrever testes unitários e de integração com Jest. Este artigo também abrange as melhores práticas para manter seus testes organizados e como interpretar os resultados para melhorar a qualidade do código.",
-        "tag": "Testing",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    },
-    {
-        "id": 4,
-        "title": "Noções Básicas de Bancos de Dados",
-        "description": "Conceitos fundamentais para trabalhar com bancos de dados. Este artigo explica os tipos de bancos de dados, incluindo relacionais e não relacionais, suas vantagens e desvantagens, e como escolher o banco de dados certo para o seu projeto. Além disso, discutimos as operações CRUD e a normalização de dados.",
-        "tag": "Database",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    },
-    {
-        "id": 5,
-        "title": "Frameworks Front-end Populares",
-        "description": "Uma análise dos frameworks front-end mais utilizados atualmente. Discutimos as características, vantagens e desvantagens de frameworks como React, Angular e Vue.js. Este artigo ajuda a escolher o framework certo para seu projeto e como começar a trabalhar com ele.",
-        "tag": "Front-end",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    },
-    {
-        "id": 6,
-        "title": "Construindo APIs com Node.js",
-        "description": "Passo a passo para criar APIs RESTful com Node.js. Este guia detalhado mostra como configurar um servidor Node.js, criar endpoints, conectar-se a um banco de dados e implementar autenticação. Também discutimos as melhores práticas para segurança e desempenho de APIs.",
-        "tag": "Back-end",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    },
-    {
-        "id": 7,
-        "title": "Testando Aplicações Web",
-        "description": "Ferramentas e metodologias para testar aplicações web de forma eficaz. Exploramos diferentes tipos de testes, incluindo unitários, funcionais e de carga. Este artigo também cobre ferramentas populares como Selenium e Cypress, e como integrá-las no seu fluxo de trabalho de desenvolvimento.",
-        "tag": "Testing",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    },
-    {
-        "id": 8,
-        "title": "Design de Banco de Dados Relacional",
-        "description": "Boas práticas para o design de bancos de dados relacionais. Discutimos os princípios de design de esquemas, normalização e desnormalização de dados. Além disso, abordamos como otimizar consultas SQL e garantir a integridade dos dados no seu banco de dados.",
-        "tag": "Database",
-        "image_link": "https://www.petroita.com.br/images/img1-1.jpg"
-    }
-]
+    [
+        {
+            "id": 1,
+            "title": "Introdução ao Front-end",
+            "description": "Um guia básico para começar no desenvolvimento front-end. Este artigo aborda os conceitos fundamentais do desenvolvimento de interfaces de usuário, incluindo HTML, CSS e JavaScript. Exploramos as melhores práticas, ferramentas populares e como criar interfaces responsivas e acessíveis.",
+            "tag": "Front-end",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "O desenvolvimento front-end é uma área essencial no desenvolvimento de software, responsável por criar a interface que os usuários interagem diretamente. Neste artigo, começamos com uma introdução ao HTML, a linguagem de marcação que define a estrutura das páginas web. Em seguida, mergulhamos no CSS, a linguagem de estilos que permite personalizar a aparência dos elementos HTML. Finalmente, exploramos o JavaScript, a linguagem de programação que adiciona interatividade às páginas. Além das linguagens básicas, discutimos a importância de práticas como design responsivo, que garante que os sites funcionem bem em dispositivos de diferentes tamanhos, e acessibilidade, que torna os sites utilizáveis por pessoas com diversas deficiências. Também apresentamos ferramentas populares e frameworks que facilitam o desenvolvimento front-end, como Bootstrap, Sass, e JavaScript frameworks como React e Vue.js."
+        },
+        {
+            "id": 2,
+            "title": "Dominando o Back-end",
+            "description": "Dicas e truques para se tornar um desenvolvedor back-end eficiente. Neste post, discutimos a arquitetura de servidores, bancos de dados e a lógica de negócios. Também abordamos as linguagens de programação mais utilizadas e as melhores práticas para garantir um código seguro e escalável.",
+            "tag": "Back-end",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "O desenvolvimento back-end é crucial para a funcionalidade de qualquer aplicação web ou móvel, lidando com a lógica, banco de dados, autenticação e controle de usuários. Este artigo começa com uma visão geral da arquitetura de servidores, explicando como o servidor responde às solicitações dos clientes e envia os dados apropriados. Em seguida, exploramos a lógica de negócios, a camada do software que trata das regras e operações principais da aplicação. Discutimos a importância de escolher a linguagem de programação certa para o back-end, como JavaScript (Node.js), Python, Java, Ruby, e PHP, e fornecemos uma introdução às melhores práticas de segurança, incluindo criptografia de dados, autenticação de usuários, e prevenção contra ataques como SQL Injection e Cross-Site Scripting (XSS)."
+        },
+        {
+            "id": 3,
+            "title": "Testes Automatizados com Jest",
+            "description": "Aprenda a utilizar o Jest para automatizar seus testes. Vamos explorar como configurar e escrever testes unitários e de integração com Jest. Este artigo também abrange as melhores práticas para manter seus testes organizados e como interpretar os resultados para melhorar a qualidade do código.",
+            "tag": "Testing",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "Testes automatizados são uma parte essencial do desenvolvimento de software moderno, ajudando a garantir que o código funciona como esperado e reduzindo a possibilidade de bugs. Neste artigo, nos concentramos no Jest, um framework de testes JavaScript fácil de usar e poderoso. Começamos com a instalação e configuração do Jest em um projeto JavaScript ou Node.js. Em seguida, discutimos como escrever testes unitários para funções e componentes individuais, e testes de integração para verificar como diferentes partes do sistema trabalham juntas. Também abordamos tópicos avançados, como mocks e spies, que permitem testar código que depende de APIs externas ou módulos. Discutimos as melhores práticas para manter os testes organizados, como estruturar seus arquivos de teste e como usar ferramentas de cobertura de código para garantir que você está testando todas as partes do seu código."
+        },
+        {
+            "id": 4,
+            "title": "Noções Básicas de Bancos de Dados",
+            "description": "Conceitos fundamentais para trabalhar com bancos de dados. Este artigo explica os tipos de bancos de dados, incluindo relacionais e não relacionais, suas vantagens e desvantagens, e como escolher o banco de dados certo para o seu projeto. Além disso, discutimos as operações CRUD e a normalização de dados.",
+            "tag": "Database",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "Os bancos de dados são um componente vital de quase todas as aplicações modernas, permitindo o armazenamento, recuperação e manipulação de dados. Este artigo fornece uma introdução aos conceitos básicos de bancos de dados, começando com a diferença entre bancos de dados relacionais e não relacionais. Bancos de dados relacionais, como MySQL, PostgreSQL e SQLite, armazenam dados em tabelas e usam SQL (Structured Query Language) para consultas e manipulações. Já os bancos de dados não relacionais, como MongoDB, Cassandra e Redis, oferecem flexibilidade para armazenar dados em formatos como documentos JSON, pares chave-valor, e grafos. Discutimos as operações CRUD (Create, Read, Update, Delete), fundamentais para a interação com qualquer banco de dados, e explicamos a normalização, um processo para organizar os dados de forma a reduzir a redundância e melhorar a integridade. Também abordamos a desnormalização e quando pode ser útil para otimização de desempenho."
+        },
+        {
+            "id": 5,
+            "title": "Frameworks Front-end Populares",
+            "description": "Uma análise dos frameworks front-end mais utilizados atualmente. Discutimos as características, vantagens e desvantagens de frameworks como React, Angular e Vue.js. Este artigo ajuda a escolher o framework certo para seu projeto e como começar a trabalhar com ele.",
+            "tag": "Front-end",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "Frameworks front-end são ferramentas poderosas que ajudam os desenvolvedores a construir interfaces de usuário de maneira mais eficiente e organizada. Neste artigo, analisamos três dos frameworks front-end mais populares: React, Angular e Vue.js. React, desenvolvido pelo Facebook, é conhecido por sua flexibilidade e eficiência na construção de interfaces de usuário baseadas em componentes. Angular, mantido pelo Google, oferece uma solução mais completa, com muitas funcionalidades integradas para desenvolvimento de aplicações web robustas. Vue.js, por sua vez, é famoso por sua simplicidade e facilidade de integração em projetos existentes. Discutimos as principais características de cada framework, suas vantagens e desvantagens, e oferecemos orientações sobre como escolher o mais adequado para o seu projeto com base em fatores como complexidade, curva de aprendizado, e ecossistema de ferramentas e bibliotecas disponíveis."
+        },
+        {
+            "id": 6,
+            "title": "Construindo APIs com Node.js",
+            "description": "Passo a passo para criar APIs RESTful com Node.js. Este guia detalhado mostra como configurar um servidor Node.js, criar endpoints, conectar-se a um banco de dados e implementar autenticação. Também discutimos as melhores práticas para segurança e desempenho de APIs.",
+            "tag": "Back-end",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "APIs (Application Programming Interfaces) são fundamentais para a comunicação entre diferentes sistemas e serviços na web. Este artigo fornece um guia passo a passo para criar APIs RESTful usando Node.js, uma plataforma JavaScript popular para desenvolvimento back-end. Começamos com a configuração de um servidor básico usando o framework Express, que simplifica a criação de servidores e roteamento de requisições. Em seguida, mostramos como definir endpoints para diferentes operações CRUD, conectar-se a um banco de dados (como MongoDB ou PostgreSQL) para armazenar e recuperar dados, e implementar autenticação usando tokens JWT (JSON Web Tokens) para garantir a segurança da API. Também discutimos práticas recomendadas para melhorar o desempenho da API, como caching, rate limiting, e compressão de respostas, além de monitoramento e logging para manter a API em funcionamento suave e detectar problemas rapidamente."
+        },
+        {
+            "id": 7,
+            "title": "Testando Aplicações Web",
+            "description": "Ferramentas e metodologias para testar aplicações web de forma eficaz. Exploramos diferentes tipos de testes, incluindo unitários, funcionais e de carga. Este artigo também cobre ferramentas populares como Selenium e Cypress, e como integrá-las no seu fluxo de trabalho de desenvolvimento.",
+            "tag": "Testing",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "Testar aplicações web é um passo crucial para garantir que elas funcionem corretamente sob diversas condições e cargas. Neste artigo, exploramos os diferentes tipos de testes que podem ser aplicados às aplicações web. Começamos com testes unitários, que verificam o funcionamento de componentes individuais do código. Em seguida, discutimos testes funcionais, que garantem que a aplicação funciona como um todo conforme esperado, e testes de carga, que avaliam o desempenho da aplicação sob condições de alta demanda. Ferramentas como Selenium e Cypress são introduzidas, mostrando como elas podem automatizar testes de interface de usuário e facilitar o processo de teste contínuo. Também discutimos a integração dessas ferramentas no fluxo de trabalho de desenvolvimento, utilizando sistemas de integração contínua (CI) e entrega contínua (CD) para executar testes automaticamente a cada alteração no código, garantindo que novas funcionalidades não quebrem as existentes."
+        },
+        {
+            "id": 8,
+            "title": "Design de Banco de Dados Relacional",
+            "description": "Boas práticas para o design de bancos de dados relacionais. Discutimos os princípios de design de esquemas, normalização e desnormalização de dados. Além disso, abordamos como otimizar consultas SQL e garantir a integridade dos dados no seu banco de dados.",
+            "tag": "Database",
+            "image_link": "https://www.petroita.com.br/images/img1-1.jpg",
+            "text": "O design de bancos de dados relacionais é uma habilidade essencial para qualquer desenvolvedor ou administrador de banco de dados. Este artigo aborda as melhores práticas para criar esquemas de banco de dados eficientes e escaláveis. Começamos com os princípios básicos de design de esquemas, incluindo como definir tabelas, colunas e tipos de dados apropriados. Em seguida, exploramos a normalização, um processo para organizar os dados de modo a reduzir redundâncias e melhorar a integridade, dividindo os dados em várias tabelas e estabelecendo relacionamentos claros entre elas. Também discutimos a desnormalização, que em alguns casos pode ser utilizada para melhorar o desempenho de consultas complexas. Abordamos técnicas para otimizar consultas SQL, como índices, chaves primárias e estrangeiras, e explicamos como garantir a integridade dos dados utilizando restrições e gatilhos. Finalmente, oferecemos dicas sobre como monitorar e ajustar o desempenho do banco de dados à medida que a aplicação cresce."
+        }
+    ]
+    
