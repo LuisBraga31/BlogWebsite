@@ -7,11 +7,11 @@ export default function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className='flex justify-between items-center'>
+    <div className='flex flex-col justify-center gap-4 md:gap-0 md:justify-between md:flex-row items-center flex-wrap '>
       
       <img src={logo} className='w-[180px] cursor-pointer' onClick={() => navigate('/')}/>
       
-      <ul className='flex gap-4 md:gap-14'>
+      <ul className='flex gap-4 md:gap-14 flex-wrap'>
         <li className='hover:font-bold cursor-pointer'> Home </li>
         <li className='hover:font-bold cursor-pointer'> About Us </li>
         <li className='hover:font-bold cursor-pointer'> Contact Us </li>
